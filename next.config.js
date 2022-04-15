@@ -4,18 +4,18 @@
 //   },
 // };
 
-const withPWA = require("next-pwa");
+// const withPWA = require("next-pwa");
 
-module.exports = withPWA({
-  images: {
-    domains: ["exam.netfly.app"],
-  },
-  pwa: {
-    dest: "public",
-    register: true,
-    skipWating: true,
-    disable: process.env.NODE_ENV === "development",
-    // scope: "/app",
-    // sw: "service-worker.js",
-  },
-});
+// module.exports = withPWA({
+//   images: {
+//     domains: ["exam.netfly.app"],
+//   },
+//   pwa: {
+//     dest: "public",
+//     register: true,
+//     skipWating: true,
+//     disable: process.env.NODE_ENV === "development",
+//     // scope: "/app",
+//     // sw: "service-worker.js",
+//   },
+// });

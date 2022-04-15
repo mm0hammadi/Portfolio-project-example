@@ -3,7 +3,7 @@ import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { motion } from "framer-motion";
 import { fadeIUp, routeAnimation, stagger } from "../animate";
-function Home() {
+function Home({ endpoint }) {
   return (
     <motion.div
       className="flex flex-col flex-grow px-6 pt-1"
@@ -56,13 +56,13 @@ function Home() {
 
 export default Home;
 
-// export const getServerSideProps = async (
-//   context: GetServerSidePropsContext
-// ) => {
-//   const res = await fetch("http://localhost:3000/api/services");
-//   const data = await res.json();
+export const getServerSideProps = async (
+  context: GetServerSidePropsContext
+) => {
+  const res = await fetch(`${process.env.VERCEl_URL}api/services`);
+  const data = await res.json();
 
-//   return {
-//     props: { services: data.services },
-//   };
-// };
+  return {
+    props: { endpoint: process.env.VERCEl_URL },
+  };
+};
