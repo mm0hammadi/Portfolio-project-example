@@ -59,8 +59,8 @@ export default Home;
 export const getServerSideProps = async (
   context: GetServerSidePropsContext
 ) => {
-  const res = await fetch(`${process.env.VERCEl_URL}api/services`);
-  const data = await res.json();
+  // const res = await fetch(`${process.env.VERCEl_URL}api/services`);
+  // const data = await res.json();
 
   return {
     props: { endpoint: process.env.VERCEl_URL },
