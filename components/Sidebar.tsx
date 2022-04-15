@@ -1,5 +1,5 @@
 import Image from "next/image";
-import avator from "../public/images/avatorr.jpeg";
+import avator from "../public/images/avator.jpeg";
 import { GoLocation } from "react-icons/go";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
@@ -15,9 +15,9 @@ export default function Sidebar() {
       <Image
         src={avator}
         alt="user avator"
-        className="mx-auto rounded-full "
-        width="128px"
-        height="128px"
+        className="mx-auto rounded-full object-fill "
+        width="100px"
+        height="100px"
         layout="intrinsic"
         quality="100"
       />
