@@ -1,9 +1,10 @@
 ### Running locally in development mode
 
-clone: https://github.com/mm0hammadi/Portfolio-project-example.git
+`clone: https://github.com/mm0hammadi/Portfolio-project-example.git`
 
-npm install
+`npm install`
 
-npm run dev
+`npm run dev`
+
 
 
