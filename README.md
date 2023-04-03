@@ -21,7 +21,7 @@ This project exists to make it easier to get started a creating production app i
 
 ### Demo
 
-![This is an image](./public/images/demo.png)
+[![demo.png](https://i.postimg.cc/8CHNBkVc/demo.png)](https://postimg.cc/GBHWbCtn)
 
 
 
