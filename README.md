@@ -27,6 +27,15 @@ This project exists to make it easier to get started a creating production app i
 
 
 
+## Features
+
+- ⚡️ Next.js 13
+- ⚛️ React 18
+- ⛑ TypeScript
+- 📏 ESLint — To find and fix problems in your code
+- 💖 Prettier — Code Formatter for consistent style
+
+
 
 
 
