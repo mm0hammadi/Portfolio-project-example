@@ -1,5 +1,9 @@
 
 
+### Demo
+
+[![demo.png](https://i.postimg.cc/8CHNBkVc/demo.png)](https://postimg.cc/GBHWbCtn)
+
 ### About
 
 Next.js is a framework that makes it easy to create 'universal' React apps - React apps that do both client and server side rendering.
@@ -19,9 +23,7 @@ This project exists to make it easier to get started a creating production app i
 
 `npm run dev`
 
-### Demo
 
-[![demo.png](https://i.postimg.cc/8CHNBkVc/demo.png)](https://postimg.cc/GBHWbCtn)
 
 
 
